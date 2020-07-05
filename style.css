@@ -8,7 +8,7 @@ body{
     background: #ecf0f1;
     color: #2c3e50;
     font-family: 'Poopins',sans-serif;
-    min-height: 100vh;
+    min-height: 50px;
 }
 
 header{
@@ -48,7 +48,7 @@ form button:hover{
 }
 
 .todo-list{
-    min-width: 30%;
+    min-width: 40%;
     list-style: none;
 }
 
@@ -133,4 +133,12 @@ select{
 .select:hover::after{
     background: #2c3e50;
     color: white;
+}
+
+@media only screen and (max-width: 600px) {
+
+    form input{
+        width: 46%;
+    }
+
 }
